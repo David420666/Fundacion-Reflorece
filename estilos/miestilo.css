@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    background-color: blueviolet;
+}
+.caja{
+    border-style: solid;
+    border-color: red;
+    height: 500px;    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.verde{
+    background-color: chartreuse;
+    height: 150px;
+}
+.blanco{
+    background-color:white;
+    height: 150px;
+}
+.azul{
+    background-color: blue;
+    height: 300px;
+}
+.rosado{
+    background-color: pink;
+    height: 150px;
+}
+.rana{
+    height: 100px;
+    width: 200px;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
